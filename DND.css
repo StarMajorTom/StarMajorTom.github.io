@@ -4,6 +4,10 @@ body {
     background-image:url(Media/Images/background.gif);
 }
 
+.nameplate {
+    text-align: center;
+}
+
 .navbar {
     background-color: rgb(253, 245, 232);
 }
