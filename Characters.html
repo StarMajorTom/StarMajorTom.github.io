@@ -45,7 +45,7 @@
             <a class="nav-link active" href="#"><i class="fa fa-address-card-o" aria-hidden="true"></i> &nbsp;Characters</a>
             <a class="nav-link" href="Factions.html"><i class="fa fa-address-book-o" aria-hidden="true"></i>&nbsp;Factions</a>
             <a class="nav-link" href="#"><i class="fa fa-shield" aria-hidden="true"></i>&nbsp;Politics</a>
-            <a class="nav-link" href="Quests.html"><i class="fa fa-bookmark-o" aria-hidden="true"></i> &nbsp;Quests</a>
+            <a class="nav-link" href="Quests.html"><i class="fa fa-bookmark-o" aria-hidden="true"></i>&nbsp;Quests</a>
         </div>
     </div>
 </nav> <!-- End of NavBar -->
@@ -55,31 +55,52 @@
   
 <div class="container">
     <h1 class="heading"><strong>Player Characters</strong></h1>
-	<div class="row p-4">
-        <div class="col-lg-3 col-md-6 p-2">
-            <h2 class="nameplate">Ashen</h2>
-            <a href="#">
-                <img class="img img-fluid rounded" src="Media/Images/unknown.gif">
-            </a>
+    <div class="card-deck">
+    <div class="row p-4">
+        <div class="card col-lg-3 col-md-6 p-2 text-center" style="width: 18rem;">
+            <img src="Media/Images/unknown.gif" class="card-img-top" alt="Unknown">
+            <div class="card-body">
+                <h4 class="card-title">Ashen</h4>
+                <p class="card-text">Leader<br>Hot-headed</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Ashen">
+                    More
+                </button>
+            </div>
         </div>
-       <div class="col-lg-3 col-md-6 p-2">
-            <h2 class="nameplate">Bhaal</h2>
-            <a href="#">
-                <img class="img img-fluid rounded" src="Media/Images/unknown.gif">
-                </a>
+        
+        <div class="card col-lg-3 col-md-6 p-2 text-center" style="width: 18rem;">
+            <img src="Media/Images/unknown.gif" class="card-img-top" alt="Unknown">
+            <div class="card-body">
+                <h4 class="card-title">Bhaal</h4>
+                <p class="card-text">Edgelord<br>Rich</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Bhaal">
+                    More
+                </button>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-6 p-2">
-            <h2 class="nameplate">Milo</h2>
-            <a href="#">
-                <img class="img img-fluid rounded" src="Media/Images/Milo.gif" alt="Milo stealing from guard">
-            </a>
+        
+        <div class="card col-lg-3 col-md-6 p-2 text-center" style="width: 18rem;">
+            <img src="Media/Images/Milo.gif" class="card-img-top" alt="Milo steals from a guard">
+            <div class="card-body">
+                <h4 class="card-title">Milo</h4>
+                <p class="card-text">Small vocabulary<br>Big...heart</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Milo">
+                    More
+                </button>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-6 p-2">
-            <h2 class="nameplate">Rhurik</h2>
-            <a href="#">
-                <img class="img img-fluid rounded" src="Media/Images/Rorik.gif" alt="Rurik Swanson with Battleaxe">
-            </a>
+        
+        <div class="card col-lg-3 col-md-6 p-2 text-center" style="width: 18rem;">
+            <img src="Media/Images/Rorik.gif" class="card-img-top" alt="Dwarf with greataxe">
+            <div class="card-body">
+                <h4 class="card-title">Rhurik</h4>
+                <p class="card-text">Lover of ale<br>Slayer of dragons</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Rhurik">
+                    More
+                </button>
+            </div>
         </div>
+    </div>
     </div>
 </div><!---End of container-->
     
@@ -89,19 +110,19 @@
 <div class="container">
     <h1 class="heading"><strong>Non-Player Characters</strong></h1>
 	<div class="row p-4">
-        <div class="col-lg-4 col-md-6 p-2">
+        <div class="col-lg-3 col-md-6 p-2">
             <h2 class="nameplate">Bjorn</h2>
             <a href="#">
                 <img class="img img-fluid rounded" src="Media/Images/unknown.gif">
             </a>
         </div>
-       <div class="col-lg-4 col-md-6 p-2">
+       <div class="col-lg-3 col-md-6 p-2">
             <h2 class="nameplate">Ajax</h2>
             <a href="#">
                 <img class="img img-fluid rounded" src="Media/Images/unknown.gif">
                 </a>
         </div>
-        <div class="col-lg-4 col-md-6 p-2">
+        <div class="col-lg-3 col-md-6 p-2">
             <h2 class="nameplate">Zragg</h2>
             <a href="#">
                 <img class="img img-fluid rounded" src="Media/Images/unknown.gif">
@@ -117,7 +138,7 @@
 <div class="container">
     <h1 class="heading"><strong>Deceased Characters</strong></h1>
 	<div class="row p-4">
-        <div class="col-lg-4 col-md-6 p-2">
+        <div class="col-lg-3 col-md-6 p-2">
             <h2 class="nameplate">Darrak</h2>
             <a href="#">
                 <img class="img img-fluid rounded" src="Media/Images/Darrak.gif">
@@ -125,5 +146,86 @@
         </div>
     </div>
 </div><!---End of container-->
+    
+<!-- Milo Modal -->
+<div class="modal fade" id="Milo" tabindex="-1" aria-labelledby="MiloModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About Milo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Appearing amidst a chaotic flash, the diminuitive goblin known only as Milo joined the party on a whim.  Though limited in vocabulary he helps the team as best he can with magic and adorableness.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Rhurik Modal -->
+<div class="modal fade" id="Rhurik" tabindex="-1" aria-labelledby="RhurikModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">About Rhurik</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor consectetur nunc, eu vulputate dui aliquam at. Vivamus id purus congue, pretium lacus sit amet, rhoncus turpis. Proin sit amet dolor turpis. Integer in tellus vitae ante posuere egestas. Vestibulum elit magna, gravida vitae dignissim ultrices, finibus eu leo. Suspendisse porta blandit arcu, vel tempus augue venenatis rhoncus. Donec in ultrices felis. Nulla accumsan ultrices est, quis feugiat leo aliquam ac. Nam et fermentum dui. Fusce ultrices, massa a vehicula euismod, leo massa volutpat velit, non finibus lectus orci quis turpis. Donec pellentesque metus sed erat tristique, nec dictum mauris maximus. In sollicitudin consectetur velit nec pretium. Morbi porta nisi eu nunc cursus iaculis.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+    
+<!-- Bhaal Modal -->
+<div class="modal fade" id="Bhaal" tabindex="-1" aria-labelledby="BhaalModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="Bhaal">About Bhaal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor consectetur nunc, eu vulputate dui aliquam at. Vivamus id purus congue, pretium lacus sit amet, rhoncus turpis. Proin sit amet dolor turpis. Integer in tellus vitae ante posuere egestas. Vestibulum elit magna, gravida vitae dignissim ultrices, finibus eu leo. Suspendisse porta blandit arcu, vel tempus augue venenatis rhoncus. Donec in ultrices felis. Nulla accumsan ultrices est, quis feugiat leo aliquam ac. Nam et fermentum dui. Fusce ultrices, massa a vehicula euismod, leo massa volutpat velit, non finibus lectus orci quis turpis. Donec pellentesque metus sed erat tristique, nec dictum mauris maximus. In sollicitudin consectetur velit nec pretium. Morbi porta nisi eu nunc cursus iaculis.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+    
+<!-- Ashen Modal -->
+<div class="modal fade" id="Ashen" tabindex="-1" aria-labelledby="AshenModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="Ashen">About Ashen Cinders</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor consectetur nunc, eu vulputate dui aliquam at. Vivamus id purus congue, pretium lacus sit amet, rhoncus turpis. Proin sit amet dolor turpis. Integer in tellus vitae ante posuere egestas. Vestibulum elit magna, gravida vitae dignissim ultrices, finibus eu leo. Suspendisse porta blandit arcu, vel tempus augue venenatis rhoncus. Donec in ultrices felis. Nulla accumsan ultrices est, quis feugiat leo aliquam ac. Nam et fermentum dui. Fusce ultrices, massa a vehicula euismod, leo massa volutpat velit, non finibus lectus orci quis turpis. Donec pellentesque metus sed erat tristique, nec dictum mauris maximus. In sollicitudin consectetur velit nec pretium. Morbi porta nisi eu nunc cursus iaculis.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
