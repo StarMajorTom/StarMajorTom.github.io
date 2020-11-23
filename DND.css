@@ -4,6 +4,11 @@ body {
     background-image:url(Media/Images/background.gif);
 }
 
+.heading {
+    border-bottom-style: solid;
+    border-bottom-color: brown;
+}
+
 .nameplate {
     text-align: center;
 }
